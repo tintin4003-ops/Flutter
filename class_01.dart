@@ -112,7 +112,7 @@ switch(day)
        print("Will eat good food");
        break;
   default:
-       print("Holiday")          
+       print("Holiday") ;         
 
 }
 
