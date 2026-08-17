@@ -3,6 +3,7 @@ void main()
   print("Hello");// console print/output
   print(10);
   print("Mahi");
+
 //datatype int,double,bool,String
 //datatype variable = value
   String name =" Mahi ";
@@ -56,4 +57,63 @@ int b=3;
  print(age<19);
  print(age>=22);
  print(age!=20);
+
+ int age2 =18;
+ bool check = true;
+ print(age2>=20 && check);
+ print(age2>=20 || check);
+
+ //type conversion
+ String k ="20";
+ int z = int.parse(k);
+ int q = 20;
+ String t = q.toString();
+
+ //control flow
+ int age3 =20;
+ if(age3>=18 && age3<=59)
+ {
+  print("enjoy the ride");
+ }
+ else if(age3>=60)
+ {
+  print("sorry, for your own good");
+ }
+ else
+ {
+print("sorry");
+ }
+
+ //nested if else
+bool hasNid=true;
+if(age3>=20)
+{
+  if(hasNid)
+  {
+    print("Enjoy");
+  }
+  if(hasNid==false)
+  {
+    print("Pls bring NID");
+  }
+}
+else{
+  print("sorry");
+}
+
+//switch case
+String day ="Monday";
+switch(day)
+{
+  case "Monday":
+       print("Comp Quiz");
+       break;
+  case "Friday":
+       print("Will eat good food");
+       break;
+  default:
+       print("Holiday")          
+
+}
+
 }
